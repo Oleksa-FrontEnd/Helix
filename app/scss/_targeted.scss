@@ -1,0 +1,112 @@
+.targeted__wrapper {
+  background-color: #f4f4f4;
+  width: 100%;
+  box-sizing: border-box;
+}
+.targeted__container {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+.targeted__title {
+  max-width: 600px;
+  font-family: TTNorms;
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #363636;
+  padding-top: 5%;
+  margin: inherit;
+}
+.targeted__text {
+  padding-top: 5%;
+  max-width: 623px;
+  margin: inherit;
+  font-family: TTNorms;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  color: #383838;
+}
+
+.targeted__heading {
+  padding-top: 9%;
+  padding-bottom: 5%;
+  font-family: TTNorms;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ababab;
+  display: inline-flex;
+  text-align: center;
+  justify-content: space-around;  
+}
+.targeted__heading_item {
+  padding-left: 20px;
+}
+
+.targeted__perfomance {
+  padding: 62px 73px 129px 65px;
+  border-radius: 3px;
+  max-width: 860px;
+  background-color: #fff;  
+}
+.targeted__perfomance-panels {
+    display: flex;
+}
+.targeted__perfomance-panels-block {
+    width: 47%;
+    display: inline-block;
+    padding: 0 15px;
+}
+.targeted__image {
+    max-width: 100%;
+    height: auto;
+}
+
+.block1 {
+    background-color:rgb(204, 236, 182);
+}
+.block2 {
+    background-color:rgb(240, 200, 157)    
+}
+
+.targeted__perfomance-title {
+    font-family: TTNorms;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #363636;
+}
+.targeted__perfomance-text {
+    font-family: TTNorms;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #4e4e4e;
+}
+
+@media (max-width: 767px) {
+    .targeted__heading {
+        
+    }
+
+}

@@ -1,0 +1,77 @@
+.exome__wrapper {
+  background: url(../images/bgExome.png) center no-repeat aqua;
+  background-size: cover;
+  margin-top: 6%;
+  width: 100%;  
+}
+.exome__title {
+  padding-top: 10%;
+  color: #232323;
+  max-width: 519px;
+  font-family: TTNorms;
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+}
+.exome__text {
+  padding-top: 30px;
+  //margin-bottom: 5%;
+  max-width: 400px;
+  font-family: TTNorms;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+@media (max-width: 1024px) {
+  .exome__title {
+    padding-top: 5%;
+    font-size: 28px;
+  }
+  .exome__text {
+    padding-top: 3%;
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .exome__wrapper {
+    margin-top: 30px;
+    //background-size: contain;
+    height: auto;
+    padding-left: 4%;
+  }
+  .exome__title {
+    padding-top: 7%;
+    font-size: 20px;
+    width: 50%;
+  }
+  .exome__text {
+    padding-top: 5px;
+    font-size: 14px;
+    width: 50%;
+  }
+}
+@media (max-width: 533px) {
+  .exome__wrapper {
+    text-align: center;
+    width: 100%;    
+    height: auto;
+    box-sizing: auto;
+    padding-top: 5%;
+  }
+  .exome__title {
+    padding-top: 7%;
+    font-size: 20px;
+    width: 100%;
+  }
+  .exome__text {
+    padding-top: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+}
